@@ -1,0 +1,1469 @@
+Notes, cautions, and warnings
+NOTE: A NOTE indicates important information that helps you make better use of your product.
+CAUTION: A CAUTION indicates either potential damage to hardware or loss of data and tells you how to avoid
+the problem.
+WARNING: A WARNING indicates a potential for property damage, personal injury, or death.
+
+Before working inside your computer
+About this task
+NOTE: The images in this document may differ from your computer depending on the configuration you ordered.
+Steps
+1. Save and close all open files and exit all open applications.
+2. Shut down your computer. For Windows operating system, click Start > Power > Shut down.
+NOTE: If you are using a different operating system, see the documentation of your operating system for shut-down
+instructions.
+3. Disconnect your computer and all attached devices from their electrical outlets.
+4. Disconnect all attached network devices and peripherals, such as keyboard, mouse, and monitor from your computer.
+CAUTION: To disconnect a network cable, first unplug the cable from your computer and then unplug the
+cable from the network device.
+5. Remove any media card and optical disc from your computer, if applicable.
+Safety instructions
+Use the following safety guidelines to protect your computer from potential damage and to ensure your personal safety. Unless
+otherwise noted, each procedure in this document assumes that you have read the safety information that shipped with your
+computer.
+WARNING: Before working inside your computer, read the safety information that is shipped with your
+computer. For more safety best practices, see Dell Regulatory Compliance Home Page.
+WARNING: Disconnect your computer from all power sources before opening the computer cover or panels.
+After you finish working inside the computer, replace all covers, panels, and screws before connecting your
+computer to an electrical outlet.
+CAUTION: To avoid damaging the computer, ensure that the work surface is flat, dry, and clean.
+CAUTION: To avoid damaging the components and cards, handle them by their edges, and avoid touching the
+pins and the contacts.
+CAUTION: You should only perform troubleshooting and repairs as authorized or directed by the Dell technical
+support team. Damage due to servicing that is not authorized by Dell is not covered by your warranty. See the
+safety instructions that is shipped with the product or at Dell Regulatory Compliance Home Page.
+CAUTION: Before touching anything inside your computer, ground yourself by touching an unpainted metal
+surface, such as the metal at the back of the computer. While you work, periodically touch an unpainted metal
+surface to dissipate static electricity which could harm internal components.
+CAUTION: When you disconnect a cable, pull it by its connector or its pull tab, not the cable itself. Some cables
+have connectors with locking tabs or thumbscrews that you must disengage before disconnecting the cable.
+When disconnecting cables, keep them evenly aligned to avoid bending the connector pins. When connecting
+cables, ensure that the connector on the cable is correctly oriented and aligned with the port.
+
+CAUTION: Press and eject any installed card from the media-card reader.
+CAUTION: Exercise caution when handling rechargeable Li-ion batteries in laptops. Swollen batteries should not
+be used and should be replaced and disposed properly.
+NOTE: The color of your computer and certain components may differ from what is shown in this document.
+Electrostatic discharge—ESD protection
+ESD is a major concern when you handle electronic components, especially sensitive components such as expansion cards,
+processors, memory modules, and system boards. A slight charge can damage circuits in ways that may not be obvious, such
+as intermittent problems or a shortened product life span. As the industry pushes for lower power requirements and increased
+density, ESD protection is an increasing concern.
+Due to the increased density of semiconductors used in recent Dell products, the sensitivity to static damage is now higher than
+in previous Dell products. For this reason, some previously approved methods of handling parts are no longer applicable.
+Two recognized types of ESD damage are catastrophic and intermittent failures.
+● Catastrophic – Catastrophic failures represent approximately 20 percent of ESD-related failures. The damage causes an immediate and complete loss of device functionality. An example of catastrophic failure is a memory module that has received a static shock and immediately generates a "No POST/No Video" symptom with a beep code that is emitted for missing or non-functional memory.
+● Intermittent – Intermittent failures represent approximately 80 percent of ESD-related failures. The high rate of intermittent failures means that most of the time when damage occurs, it is not immediately recognizable. The memory module receives a static shock, but the tracing is merely weakened and does not immediately produce outward symptoms that are related to the damage. The weakened trace may take weeks or months to melt, and in the meantime may cause degradation of memory integrity, intermittent memory errors, and so on. Intermittent failures also called latent or "walking wounded" are difficult to detect and troubleshoot.
+
+Perform the following steps to prevent ESD damage:
+● Use a wired ESD wrist strap that is properly grounded. Wireless anti-static straps do not provide adequate protection. Touching the chassis before handling parts does not ensure adequate ESD protection on parts with increased sensitivity to ESD damage.
+● Handle all static-sensitive components in a static-safe area. If possible, use anti-static floor pads and workbench pads.
+● When unpacking a static-sensitive component from its shipping carton, do not remove the component from the anti-static packing material until you are ready to install the component. Before unwrapping the anti-static packaging, use the antistatic wrist strap to discharge the static electricity from your body.
+● Before transporting a static-sensitive component, place it in an anti-static container or packaging.
+
+ESD Field Service kit
+The unmonitored Field Service kit is the most commonly used service kit. Each Field Service kit includes three main components: anti-static mat, wrist strap, and bonding wire.
+CAUTION: It is critical to keep ESD-sensitive devices away from internal parts that are insulators and often
+highly charged, such as plastic heat sink casings.
+
+Working Environment
+Before deploying the ESD Field Service kit, assess the situation at the customer location. For example, deploying the kit for a server environment is different than for a desktop or laptop environment. Servers are typically installed in a rack within a data center; desktops or laptops are typically placed on office desks or cubicles. Always look for a large open flat work area that is free of clutter and large enough to deploy the ESD kit with additional space to accommodate the type of computer that is being repaired. The workspace should also be free of insulators that can cause an ESD event. On the work area, insulators such as Styrofoam and other plastics should always be moved at least 12 inches or 30 centimeters away from sensitive parts before physically handling any hardware components.
+
+ESD Packaging
+All ESD-sensitive devices must be shipped and received in static-safe packaging. Metal, static-shielded bags are preferred.
+However, you should always return the damaged part using the same ESD bag and packaging that the new part arrived in. The ESD bag should be folded over and taped shut and all the same foam packing material should be used in the original box that the new part arrived in. ESD-sensitive devices should be removed from packaging only at an ESD-protected work surface, and parts should never be placed on top of the ESD bag because only the inside of the bag is shielded. Always place parts in your hand, on the ESD mat, in the computer, or inside an anti-static bag.
+
+Components of an ESD Field Service kit
+The components of an ESD Field Service kit are:
+● Anti-Static Mat – The anti-static mat is dissipative and parts can be placed on it during service procedures. When using an anti-static mat, your wrist strap should be snug and the bonding wire should be connected to the anti-static mat and to any bare metal on the computer being worked on. Once deployed properly, service parts can be removed from the ESD bag and placed directly on the anti-static mat. ESD-sensitive items are safe in your hand, on the anti-static mat, in the computer, or inside an ESD bag.
+● Wrist Strap and Bonding Wire – The wrist strap and bonding wire can be either directly connected between your wrist and bare metal on the hardware if the ESD mat is not required, or connected to the anti-static mat to protect hardware that is temporarily placed on the mat. The physical connection of the wrist strap and bonding wire between your skin, the ESD mat, and the hardware is known as bonding. Use only Field Service kits with a wrist strap, anti-static mat, and bonding wire. Never use wireless wrist straps. Always be aware that the internal wires of a wrist strap are prone to damage from normal wear and tear, and must be checked regularly with a wrist strap tester in order to avoid accidental ESD hardware damage. It is recommended to test the wrist strap and bonding wire at least once per week.
+● ESD Wrist Strap Tester – The wires inside an ESD strap are prone to damage over time. When using an unmonitored kit, it is a best practice to regularly test the strap prior to each service call, and at a minimum, test once per week. A wrist strap tester is the best method for doing this test. If you do not have your own wrist strap tester, check with your regional office to find out if they have one. To perform the test, plug the bonding-wire of the wrist-strap into the tester while it is strapped to your wrist and push the button to test. A green LED is lit if the test is successful; a red LED is lit and an alarm sounds if the test fails.
+NOTE: It is recommended to always use the traditional wired ESD grounding wrist strap and protective anti-static mat when servicing Dell products. In addition, it is critical to keep sensitive parts separate from all insulator parts while servicing the computer, and use anti-static bags for transporting sensitive components.
+
+Transporting sensitive components
+When transporting ESD sensitive components such as replacement parts or parts to be returned to Dell, it is critical to place these parts in anti-static bags for safe transport.
+
+Lifting equipment
+Adhere to the following guidelines when lifting heavy equipment:
+CAUTION: Do not lift greater than 50 pounds. Always obtain additional resources or use a mechanical lifting
+device.
+1. Get a firm balanced footing. Keep your feet apart for a stable base, and point your toes out.
+2. Tighten stomach muscles. Abdominal muscles support your spine when you lift, offsetting the force of the load.
+3. Lift with your legs, not your back.
+4. Keep the load close. The closer it is to your spine, the less force it exerts on your back.
+5. Keep your back upright, whether lifting or setting down the load. Do not add the weight of your body to the load. Avoid twisting your body and back.
+6. Follow the same technique in reverse to set the load down.
+
+After working inside your computer
+About this task
+CAUTION: Leaving stray or loose screws inside your computer may severely damage your computer.
+Steps
+1. Replace all screws and ensure that no stray screws remain inside your computer.
+2. Connect any external devices, peripherals, or cables you removed before working on your computer.
+3. Replace any media cards, discs, or any other parts that you removed before working on your computer.
+4. Connect your computer and all attached devices to their electrical outlets.
+5. Turn on your computer.
+
+Removing and installing components
+NOTE: The images in this document may differ from your computer depending on the configuration you ordered.
+Recommended tools
+The procedures in this document may require the following tools:
+● Phillips screwdriver #0
+● Plastic scribe
+Screw list
+NOTE: When removing screws from a component, it is recommended to note the screw type and the quantity of screws,
+and then place them in a screw storage box. This is to ensure that the correct number of screws and correct screw type is restored when the component is replaced.
+NOTE: Some computers have magnetic surfaces. Ensure that the screws are not left attached to such surfaces when
+replacing a component.
+NOTE: Screw color may vary depending on the configuration ordered.
+
+Major components of Inspiron 15 3520
+The following image shows the major components of Inspiron 15 3520.
+1. Base cover 
+2. Battery
+3. Speakers
+4. Power-button with optional fingerprint-reader
+5. Touchpad 
+6. Touchpad bracket
+7. Power-adapter port 
+8. Solid-state drive thermal plate
+9. M.2 solid-state drive 
+10. Palm-rest and keyboard assembly
+11. Display assembly 
+12. Memory modules
+13. Wireless card with bracket 
+14. I/O board
+15. System board 
+16. Heat sink
+17. Fan 
+18. I/O board FFC
+19. Hard drive
+NOTE: Systems with a 4-cell battery configuration do
+not support a hard drive.
+
+Secure Digital (SD) Card
+Removing the Secure Digital card
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+About this task
+Steps
+1. Push the secure digital card to release it from the card slot.
+2. Slide the secure digital card out of the computer.
+
+Installing the Secure Digital card
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+Steps
+Slide the secure digital into the slot until it clicks into place.
+Next steps
+1. Follow the procedure in After working inside your computer.
+
+Base cover
+Removing the base cover
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+About this task
+NOTE: Before removing the base cover, ensure that there is no SD card installed in the SD card slot on your computer.
+The following images indicate the location of the base cover and provide a visual representation of the removal procedure.
+Steps
+1. Remove the six screws (M2x5) that secure the base cover to the palm-rest and keyboard assembly.
+2. Loosen the two captive screws that secure the base cover to the palm-rest and keyboard assembly.
+3. Using a plastic scribe, pry open the base cover from the recesses located in the U-shaped indents at the top edge of the
+base cover near the hinges.
+4. Lift the base cover off the palm-rest and keyboard assembly.
+5. Disconnect the battery cable from the system board.
+6. Press and hold the power button for five seconds to ground the computer and drain the flea power.
+
+Installing the base cover
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the base cover and provide a visual representation of the installation procedure.
+Steps
+1. Connect the battery cable to the connector on the system board.
+2. Place and snap the base cover into place on the palm-rest and keyboard assembly.
+3. Tighten the two captive screws that secure the base cover to the palm-rest and keyboard assembly.
+4. Replace the six screws (M2x5) that secure the base cover to the palm-rest and keyboard assembly.
+Next steps
+1. Install the SD card.
+2. Follow the procedure in After working inside your computer.
+
+Battery
+Rechargeable Li-ion battery precautions
+CAUTION:
+● Exercise caution when handling rechargeable Li-ion batteries.
+● Discharge the battery completely before removing it. Disconnect the AC power adapter from the computer
+and operate the computer solely on battery power—the battery is fully discharged when the computer no
+longer turns on when the power button is pressed.
+● Do not crush, drop, mutilate, or penetrate the battery with foreign objects.
+● Do not expose the battery to high temperatures, or disassemble battery packs and cells.
+● Do not apply pressure to the surface of the battery.
+● Do not bend the battery.
+● Do not use tools of any kind to pry on or against the battery.
+● Ensure any screws during the servicing of this product are not lost or misplaced, to prevent accidental
+puncture or damage to the battery and other computer components.
+● If the battery gets stuck inside your computer as a result of swelling, do not try to release it as puncturing,
+bending, or crushing a rechargeable Li-ion battery can be dangerous. In such an instance, contact Dell
+technical support for assistance. See Contact Support at Dell Support Site.
+● Always purchase genuine batteries from Dell Site or authorized Dell partners and resellers.
+● Swollen batteries should not be used and should be replaced and disposed properly. For guidelines on how to
+handle and replace swollen rechargeable Li-ion batteries, see Handling swollen rechargeable Li-ion batteries.
+
+Removing the 3-cell battery
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+About this task
+The following image indicates the location of the 3-cell battery and provides a visual representation of the removal procedure.
+Steps
+1. Disconnect the battery cable from the system board, if applicable.
+2. Remove the three (M2x3) screws that secure the battery to the palm-rest and keyboard assembly.
+3. Remove the battery from the palm-rest and keyboard assembly.
+
+Installing the 3-cell battery
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following image indicates the location of the 3-cell battery and provides a visual representation of the installation procedure.
+Steps
+1. Place the battery on the palm-rest and keyboard assembly.
+2. Align the screw holes on the battery to the screw holes on the palm-rest and keyboard assembly.
+3. Replace the three (M2x3) screws that secure the battery to the palm-rest and keyboard assembly.
+4. Adhere the hard drive Flexible Flat Cable on to the battery and connect the cable to the system board.
+5. Connect the battery cable to the connector on the system board.
+Next steps
+1. Install the base cover.
+2. Install the SD card.
+3. Follow the procedure in After working inside your computer.
+
+Removing the 4-cell battery
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+About this task
+The following image indicates the location of the 4-cell battery and provides a visual representation of the removal procedure.
+Steps
+1. Disconnect the battery cable from the system board, if applicable.
+2. Remove the four (M2x3) screws that secure the battery to the palm-rest and keyboard assembly.
+3. Remove the battery from the palm-rest and keyboard assembly.
+NOTE: When replacing the 4-cell battery, use a scribe push upward through the bottom-left screw hole to remove the
+battery rubber stopper and transfer it to the new replacement 4-cell battery.
+
+Installing the 4-cell battery
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following image indicates the location of the 4-cell battery and provides a visual representation of the installation procedure.
+Steps
+1. Place the battery on the palm-rest and keyboard assembly.
+2. Align the screw holes on the battery to the screw holes on the palm-rest and keyboard assembly.
+3. Replace the four (M2x3) screws that secure the battery to the palm-rest and keyboard assembly.
+4. Connect the battery cable to the connector on the system board.
+NOTE: When replacing the 4-cell battery, use a scribe push upward through the bottom-left screw hole to remove the
+battery rubber stopper and transfer it to the new replacement 4-cell battery.
+Next steps
+1. Install the base cover.
+2. Install the SD card.
+3. Follow the procedure in After working inside your computer.
+
+Disconnecting the battery cable
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+About this task
+The following images indicate the location of the battery cable and provide a visual representation of the removal procedure.
+Steps
+1. Lift the latch on the battery cable.
+2. Disconnect the battery cable from the connector on the battery.
+
+Connecting the battery cable
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the battery cable and provide a visual representation of the installation procedure.
+Steps
+1. Connect the battery cable to the connector on the battery.
+2. Close the latch on the battery cable connector to secure it to the battery.
+Next steps
+1. Install the base cover.
+2. Install the SD card.
+3. Follow the procedure in After working inside your computer.
+
+M.2 solid state drive
+Removing the M.2 2230 solid state drive
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+About this task
+NOTE: This procedure applies only to computers shipped with an M.2 2230 solid state drive installed.
+NOTE: The M.2 card installed on your computer depends on the configuration ordered. Supported card configurations on
+the M.2 card slot:
+● M.2 2230 solid state drive
+● M.2 2280 solid state drive
+The following images indicate the location of the M.2 2230 solid state drive and provide a visual representation of the removal procedure.
+Steps
+1. Remove the (M2x2) screw that secures the M.2 thermal plate to the palm-rest and keyboard assembly.
+2. Slide and lift the solid state drive thermal plate off the solid state drive.
+3. Slide and remove the M.2 2230 solid state drive from the M.2 card slot on the system board.
+
+Installing the M.2 2230 solid state drive
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+NOTE: This procedure applies if you are installing a M.2 2230 solid state drive.
+NOTE: The M.2 card installed on your computer depends on the configuration ordered. Supported card configurations on the M.2 card slot:
+● M.2 2230 solid state drive
+● M.2 2280 solid state drive
+The following images indicate the location of the M.2 2230 solid state drive and provide a visual representation of the installation procedure
+Steps
+1. Align the notch on the M.2 2230 solid state drive with the tab on the M.2 card slot on the system board.
+2. Slide the M.2 2230 solid state drive into the M.2 card slot on the system board .
+3. Place the M.2 thermal plate on the M.2 2230 solid state drive.
+4. Align the screw holes on the M.2 thermal plate with the screw holes on the palm-rest and keyboard assembly.
+5. Replace the (M2x2) screw that secures the M.2 thermal plate to the palm-rest and keyboard assembly.
+Next steps
+1. Install the base cover.
+2. Install the SD card.
+3. Follow the procedure in After working inside your computer.
+Steps
+1. Remove the (M2x2) screw that secures the M.2 thermal plate to the palm-rest and keyboard assembly.
+2. Slide and lift the solid state drive thermal plate off the solid state drive.
+3. Slide and remove the M.2 2280 solid state drive from the M.2 card slot on the system board.
+
+
+Removing the M.2 2280 solid state drive
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+About this task
+NOTE: This procedure applies only to computers shipped with a M.2 2280 solid state drive installed.
+NOTE: The M.2 card installed on your computer depends on the configuration ordered. Supported card configurations on the M.2 card slot:
+● M.2 2230 solid state drive
+● M.2 2280 solid state drive
+The following images indicate the location of the M.2 2280 solid state drive and provide a visual representation of the removal procedure.
+
+Installing the M.2 2280 solid state drive
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+NOTE: This procedure applies if you are installing a M.2 2280 solid state drive.
+NOTE: The M.2 card installed on your computer depends on the configuration ordered. Supported card configurations on the M.2 card slot:
+● M.2 2230 solid state drive
+● M.2 2280 solid state drive
+The following images indicate the location of the M.2 2280 solid state drive and provide a visual representation of the installation procedure.
+Steps
+1. Align the notch on the M.2 2280 solid state drive with the tab on the M.2 card slot on the system board.
+2. Slide the M.2 2280 solid state drive into the M.2 card slot on the system board.
+3. Place the M.2 thermal plate on the M.2 2280 solid state drive.
+4. Align the screw holes on the M.2 thermal plate with the screw holes on the palm-rest and keyboard assembly.
+5. Replace the (M2x2) screw that secures the M.2 thermal plate and the M.2 solid state drive to the palm-rest and keyboard assembly.
+Next steps
+1. Install the base cover.
+2. Install the SD card.
+3. Follow the procedure in After working inside your computer.
+
+Wireless card
+Removing the wireless card
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+About this task
+The following images indicate the location of the wireless card and provide a visual representation of the removal procedure.
+Steps
+1. Remove the screw (M2x3.5) that secures the wireless-card bracket to the system board.
+2. Lift the wireless-card bracket from the wireless card.
+3. Disconnect the antenna cables from the wireless card.
+4. Slide and remove the wireless card from the WLAN slot on the system board.
+
+Installing the wireless card
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the wireless card and provide a visual representation of the installation procedure.
+Steps
+1. Connect the antenna cables to the wireless card.
+The following table provides the antenna-cable color scheme for the wireless card supported by your computer.
+2. Slide the wireless card into the WLAN slot on the system board.
+3. Place the wireless-card bracket on the wireless card.
+4. Replace the screw (M2x3.5) that secures the wireless-card bracket to the system board.
+Next steps
+1. Install the base cover.
+2. Install the SD card.
+3. Follow the procedure in After working inside your computer.
+
+I/O board
+Removing the Input/Output board
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+About this task
+The following images indicate the location of the Input/Output board and provide a visual representation of the removal
+procedure.
+Steps
+1. Remove the two (M2.5x5) screws that secure the display hinge to the palm-rest and keyboard assembly.
+2. Lift the hinge up to access the I/O board.
+3. Open the latch and disconnect the I/O board cable from the I/O board.
+4. Open the latch and disconnect the fingerprint-reader board cable from the I/O board (if applicable).
+5. Remove the three (M2x3.5) screws that secure the I/O board to the palm-rest and keyboard assembly.
+6. Lift the I/O board off the palm-rest and keyboard assembly.
+
+Installing the Input/Output board
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the I/O board and provide a visual representation of the installation procedure.
+Steps
+1. Place the I/O board on the palm-rest and keyboard assembly.
+2. Align the screw holes on the I/O board to the screw holes on the palm-rest and keyboard assembly.
+3. Replace the three (M2x3.5) screws that secure the I/O board to the palm-rest and keyboard assembly.
+4. Connect the fingerprint-reader board cable to the connector on the I/O board and close the latch (if applicable).
+5. Connect the I/O board power cable to the connector on the I/O board and close the latch.
+6. Close the hinge and replace the two (M2.5x5) screws that secure the display hinge to the palm-rest and keyboard assembly.
+Next steps
+1. Install the base cover.
+2. Install the SD card.
+3. Follow the procedure in After working inside your computer.
+
+I/O daughter board FFC
+Removing the Input/Output daughterboard FFC
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the fan.
+About this task
+The following image indicates the location of the Input/Output daughter board FFC and provides a visual representation of the
+removal procedure in an aluminum chassis.
+Steps
+1. Open the latch and disconnect the I/O daughter board cable from the I/O board.
+2. Open the latch and disconnect the I/O daughter board cable from the system board.
+3. Lift the I/O daughter board cable off the palm-rest and keyboard assembly.
+NOTE: For systems shipped with a plastic chassis, slide the I/O daughter board cable underneath the wireless card
+antenna cables and lift off the palm-rest and keyboard assembly.
+
+Installing the Input/Output daughter board FFC
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the I/O daughter board FFC and provide a visual representation of the installation
+procedure in a system shipped with aluminum chassis:
+Steps
+1. Place the I/O daughter board FFC on the palm-rest and keyboard assembly.
+For systems shipped with a plastic chassis, slide and place the I/O daughter board FFC underneath the wireless card
+antenna cables on the palm-rest and keyboard assembly.
+2. Connect the I/O daughter board FFC the connector on the I/O board.
+3. Connect the I/O daughter board FFC the connector on the system board.
+Next steps
+1. Install the fan.
+2. Install the base cover.
+3. Install the SD card.
+4. Follow the procedure in After working inside your computer.
+
+Hard drive assembly
+Removing the hard drive
+Prerequisites
+NOTE: Systems with a 4-cell battery configuration do not support a hard drive.
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+About this task
+The following images indicate the location of the hard drive and provide a visual representation of the removal procedure.
+Steps
+1. Disconnect the hard drive cable from the system board.
+2. Remove the four (M2x3.5) screws that secure the hard drive assembly to the palm-rest and keyboard assembly.
+3. Lift the hard drive assembly and its cable from the palm-rest and keyboard assembly.
+4. Disconnect the hard drive cable from the hard drive assembly.
+5. Remove the four (M3x3) screws that secure the hard drive to the hard drive bracket.
+6. Slide and remove the hard drive from the hard drive bracket.
+
+Installing the hard drive
+Prerequisites
+NOTE: Systems with a 4-cell battery configuration do not support a hard drive.
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the hard drive assembly and provide a visual representation of the installation procedure.
+Steps
+1. Place and slide the hard drive into the hard-drive bracket.
+2. Align the screw holes on the hard drive bracket with the screw holes on the hard drive.
+3. Replace the four (M3x3) screws that secure the hard drive to the hard drive bracket.
+4. Connect the hard drive cable to the hard drive assembly.
+5. Place the hard drive assembly on the palm-rest and keyboard assembly.
+6. Align the screw holes on the hard drive assembly to the screw holes on the palm-rest and keyboard assembly.
+7. Replace the four (M2x3.5) screws that secure the hard drive assembly to the palm-rest and keyboard assembly.
+8. Connect the hard drive cable to the connector on the system board.
+Next steps
+1. Install the base cover.
+2. Install the SD card.
+3. Follow the procedure in After working inside your computer.
+
+Memory module
+Removing the memory modules
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+About this task
+The following images indicate the location of the memory modules and provide a visual representation of the removal procedure.
+CAUTION: To prevent damage to the memory module, hold the memory module by the edges. Do not touch
+the components or metallic contacts on the memory module as electrostatic discharge (ESD) can inflict severe
+damage on the components. To read more about ESD protection, see Electrostatic discharge—ESD protection.
+Steps
+1. Using your fingertips, carefully spread apart the securing-clips on each end of the memory-module slot until the memory
+module pops-up.
+2. Remove the memory module from the memory-module slot on the system board.
+NOTE: Your computer may have up to two memory modules installed. Repeat steps 1 to 2 if there is a second memory.
+module installed.
+
+Installing the memory modules
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the memory modules and provide a visual representation of the installation procedure.
+CAUTION: To prevent damage to the memory module, hold the memory module by the edges. Do not touch
+the components or metallic contacts on the memory module as electrostatic discharge (ESD) can inflict severe
+damage on the components. To read more about ESD protection, see Electrostatic discharge—ESD protection.
+Steps
+1. Align the notch on the memory module with the tab on the memory-module slot on the system board.
+2. Slide the memory module into the memory-module slot on the system board.
+3. Press down on the memory module until the securing clips click, locking the memory module in place.
+NOTE: Repeat steps 1 to 3 if there is a second memory module to be installed into your computer.
+Next steps
+1. Install the base cover.
+2. Install the SD card.
+3. Follow the procedure in After working inside your computer.
+
+Speakers
+Removing the speakers
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+About this task
+The following images indicate the location of the speakers and provide a visual representation of the removal procedure.
+Steps
+1. Disconnect the speaker cable from the system board.
+2. Unroute the speaker cable from the routing guides on the palm-rest and keyboard assembly.
+3. Lift the speakers along with its cable from the palm-rest and keyboard assembly.
+
+Installing the speakers
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the speakers and provide a visual representation of the installation procedure
+Steps
+1. Using the alignment posts, place the speakers on the palm-rest and keyboard assembly.
+NOTE: Ensure that the alignment posts are threaded through the rubber grommets on the speaker.
+2. Route the speaker cable through the routing guides on the palm-rest and keyboard assembly.
+3. Connect the speaker cable to the system board.
+Next steps
+1. Install the base cover.
+2. Install the SD card.
+3. Follow the procedure in After working inside your computer.
+
+Heat sink
+Removing the heat sink
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+About this task
+NOTE: The heat sink may become hot during normal operation. Allow sufficient time for the heat sink to cool before you touch it.
+NOTE: For maximum cooling of the processor, do not touch the heat transfer areas on the heat sink. The oils in your skin can reduce the heat transfer capability of the thermal grease.
+The following images indicate the location of the UMA heat sink and provide a visual representation of the removal procedure.
+Steps
+1. Loosen the four captive screws that secure the heat sink to the system board.
+NOTE: Loosen the captive screws in the reverse sequential order mentioned on the heat sink [4 > 3 > 2 > 1].
+NOTE: The number of screws varies depending on the configuration ordered.
+2. Lift the heat sink from the system board.
+
+Installing the heat sink
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+NOTE: If either the system board or the heat sink is replaced, use the thermal grease provided in the kit to ensure that thermal conductivity is achieved.
+The following images indicate the location of the UMA heat sink and provide a visual representation of the installation procedure.
+Steps
+1. Place the heat sink on the system board.
+2. Tighten the four captive screws that secure the heat sink to the system board.
+NOTE: Tighten the captive screws in the sequential order mentioned on the heat sink [1 > 2 > 3 > 4].
+NOTE: The number of screws varies depending on the configuration ordered.
+Next steps
+1. Install the base cover.
+2. Install the SD card.
+3. Follow the procedure in After working inside your computer.
+
+Fan
+Removing the fan
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+About this task
+The following images indicate the location of the fan and provide a visual representation of the removal procedure.
+Steps
+1. Disconnect the fan cable from the system board.
+2. Remove the two (M2x5) screws that secure the fan to the palm-rest and keyboard assembly.
+3. Lift the fan from the palm-rest and keyboard assembly.
+
+Installing the fan
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the fan and provide a visual representation of the installation procedure.
+Steps
+1. Place the fan on the palm-rest and keyboard assembly.
+2. Align the screw holes on the fan to the screw holes on the palm-rest and keyboard assembly.
+3. Replace the two (M2x5) screws that secure the fan to the palm-rest and keyboard assembly.
+4. Connect the fan cable to the connector on the system board.
+Next steps
+1. Install the base cover.
+2. Install the SD card.
+3. Follow the procedure in After working inside your computer.
+
+Power-button board
+Removing the power button
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the wireless card.
+5. Remove the I/O board.
+6. Remove the display assembly.
+About this task
+The following images indicate the location of the power button and provide a visual representation of the removal procedure.Steps
+1. Remove the single (M2x2) screw securing the power button to the palm-rest and keyboard assembly.
+2. Remove the power button from the computer.
+
+Installing the power button
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following images indicate the location of the power button and provide a visual representation of the installation procedure.
+Steps
+1. Place the power-button board into the slot on the palm-rest and keyboard assembly.
+2. Install the single (M2x2) screw to secure the power button to the palm-rest and keyboard assembly.
+Next steps
+1. Install the display assembly.
+2. Install the wireless card.
+3. Install the I/O board.
+4. Install the base cover.
+5. Install the SD card.
+6. Follow the procedure in After working inside your computer.
+
+Power button with fingerprint reader
+Removing the power button with optional fingerprint reader
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the wireless card.
+5. Remove the I/O board.
+6. Remove the display assembly.
+About this task
+The following images indicate the location of the power button with optional fingerprint reader and provide a visual representation of the removal procedure.
+Steps
+1. Remove the (M2x2) screw that secures the power button to the palm-rest and keyboard assembly.
+2. Peel the fingerprint reader Flexible Flat cable from the palm-rest and keyboard assembly.
+3. Lift the power button with fingerprint reader, along with its cable, off the palm-rest and keyboard assembly.
+
+Installing the power button with optional fingerprint reader
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the power button with optional fingerprint reader and provide a visual representation of the installation procedure.
+Steps
+1. Using the alignment posts, place the power button with fingerprint reader into its slot on the palm-rest and keyboard assembly.
+2. Replace the (M2x2) screw that secures the power button with fingerprint reader to the palm-rest and keyboard assembly.
+3. Adhere the fingerprint reader Flexible Flat cable to the palm-rest and keyboard assembly.
+NOTE: Fold and align the fingerprint reader Flexible Flat cable to the mark at the right of the power button, and align the white line on the Flexible Flat cable to the mark on the palm-rest and keyboard assembly.
+Next steps
+1. Install the display assembly.
+2. Install the wireless card.
+3. Install the I/O board.
+4. Install the base cover.
+5. Install the SD card.
+6. Follow the procedure in After working inside your computer.
+
+Display assembly
+Removing the display assembly
+CAUTION: The maximum operating angle for the display-panel hinge is 135 degrees.
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the wireless card.
+About this task
+The following images indicate the location of the display assembly and provide a visual representation of the removal procedure.
+Steps
+1. Remove the four (M2.5x5) screws that secure the display hinges to the palm-rest and keyboard assembly.
+2. Disconnect the display cable and the speaker cable from the system board (for systems with plastic chassis).
+NOTE: Disconnect only the display cable from the system board for systems with aluminum chassis.
+3. Unroute the WLAN antenna cables from the routing guides on the palm-rest and keyboard assembly (for systems with plastic chassis).
+NOTE: The procedure and images documented is for systems shipped with a plastic chassis. The same procedure is
+also applicable for system shipped with aluminum chassis, with the exception of the WLAN antenna cables. The WLAN
+antennas are attached to the palm-rest assembly, therefore it is not required to disconnect and unroute the WLAN
+antenna cables.
+4. Open the display hinges at an angle of 90 degrees, and place the system on a flat surface.
+5. Remove the display assembly from the palm-rest and keyboard assembly.
+
+Installing the display assembly
+CAUTION: The maximum operating angle for the display-panel hinge is 135 degrees.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the display assembly and provide a visual representation of the installation procedure.
+Steps
+1. Slide the display assembly at an angle, and place the display assembly on the palm-rest and keyboard assembly.
+2. Gently press down on the display hinges to align the screw holes on the display hinges with the screw holes on the palm-rest and keyboard assembly.
+3. Replace the four (M2.5x5) screws that secure the display hinges to the palm-rest and keyboard assembly.
+4. Route the WLAN antenna cables through the routing guides on the palm-rest and keyboard assembly. Adhere the tape to the heat sink and fan to secure the cables in place.
+5. Connect the display cable to the connector on the system board.
+Next steps
+1. Install the wireless card.
+2. Install the base cover.
+3. Install the SD card.
+4. Follow the procedure in After working inside your computer.
+
+Hinge caps
+Removing the hinge caps
+Prerequisites
+NOTE: This procedure is applicable for systems with plastic chassis.
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the wireless card.
+5. Remove the display assembly.
+About this task
+The following images indicate the location of the hinge caps and provide a visual representation of the installation procedure.
+Steps
+NOTE: Before removing the display hinge caps, open the display hinges to 90 degrees.
+1. Pinch the left hinge cap in the center.
+2. Using a plastic scribe pry the inner side of the left hinge cap and remove it from the left hinge.
+3. Pinch the right hinge cap in the center.
+4. Using a plastic scribe pry the inner side of the right hinge cap and remove it from the right hinge.
+
+Installing the hinge caps
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+NOTE: This procedure is applicable for systems with plastic chassis.
+About this task
+The following images indicate the location of the hinge caps and provide a visual representation of the installation procedure.
+
+Steps
+1. Align the rib inside the left hinge cap to the outer sides.
+2. Push the left hinge cap down until it clicks in place.
+3. Align the rib inside the right hinge cap to the outer sides.
+4. Push the right hinge cap down until it clicks in place.
+Next steps
+1. Install the display assembly.
+2. Install the wireless card.
+3. Install the base cover.
+4. Install the SD card.
+5. Follow the procedure in After working inside your computer.
+
+Display bezel
+Removing the display bezel
+Prerequisites
+NOTE: This procedure is applicable for systems with plastic chassis.
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the wireless card.
+5. Remove the display assembly.
+6. Remove the hinge caps.
+About this task
+The following images indicate the location of the display bezel and provide a visual representation of the removal procedure.
+Steps
+1. Pry open the display bezel from the inner edge at the left and right sides of the display assembly.
+2. Pry open the display bezel from the inner edge at the top side of the display assembly.
+3. Continue to pry open the outer edge of the bottom side of the display bezel.
+4. Pry open the display bezel from the inner edge at the bottom side of the display assembly.
+5. Lift and remove the display bezel from the display assembly.
+
+Installing the display bezel
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+NOTE: This procedure is applicable for systems with plastic chassis.
+About this task
+The following image indicates the location of the display bezel and provides a visual representation of the installation procedure
+Steps
+Align the display bezel with the display back-cover and antenna assembly, and then gently snap the display bezel into place.
+Next steps
+1. Install the hinge cap.
+2. Install the display assembly.
+3. Install the wireless card.
+4. Install the base cover.
+5. Install the SD card.
+6. Follow the procedure in After working inside your computer.
+
+Hinges
+Removing the hinges
+Prerequisites
+NOTE: This procedure is applicable for systems with a plastic chassis only.
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the wireless card.
+5. Remove the display assembly.
+6. Remove the hinge caps.
+7. Remove the display bezel.
+About this task
+The following images indicate the location of the hinge caps and provide a visual representation of the installation procedure.
+Steps
+1. Remove the three (M2.5x3.8) screws from the left hinge.
+2. Lift and remove the left hinge from the display assembly.
+3. Remove the three (M2.5x3.8) screws from the right hinge.
+4. Lift and remove the right hinge from the display assembly.
+
+Installing the hinges
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following images indicate the location of the hinges and provide a visual representation of the installation procedure.
+Steps
+1. Align and place the left hinge on the display assembly.
+2. Install the three (M2.5x3.8) screws to secure the hinge to the display panel and back cover.
+3. Align and place the right hinge on the display assembly.
+4. Install the three (M2.5x3.8) screws to secure the hinge to the display panel and back cover.
+Next steps
+1. Install the display bezel.
+2. Install the hinge cap.
+3. Install the display assembly.
+4. Install the wireless card.
+5. Install the base cover.
+6. Install the SD card.
+7. Follow the procedure in After working inside your computer.
+
+Display panel
+Removing the display panel
+Prerequisites
+NOTE: This procedure is applicable for systems with a plastic chassis only.
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the wireless card.
+5. Remove the display assembly.
+6. Remove the hinge caps.
+7. Remove the display bezel.
+8. Remove the hinges.
+About this task
+The following images indicate the location of the display panel and provide a visual representation of the removal procedure.
+Steps
+1. Use a plastic scribe to pry the display panel from the bottom-right corner.
+2. Gently start prying the display panel along the left and right sides of the display back-cover using your hands.
+3. Lift the bottom side of the display panel and slide it downward to release the display brackets from the slots at the top side of the display cover.
+4. Gently flip the display panel assembly forward, peel back the Mylar tape securing the display cable on the rear of the display
+panel.
+NOTE: Ensure that the panel has a clean and smooth surface to rest on to prevent damage.
+5. Disconnect the display cable from the display panel assembly and lift the display panel away from the system.
+NOTE: Do not remove the metal brackets from the panel.
+
+Installing the display panel
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+NOTE: This procedure is applicable for systems with a plastic chassis only.
+About this task
+The following images indicate the location of the display panel and provide a visual representation of the installation procedure.
+Steps
+1. Place the display panel and display assembly on a clean and flat surface.
+2. Connect the display cable to the connector on the display panel and close the latch.
+3. Adhere the tape to secure the display-cable connector latch to the display panel.
+4. Lift and rotate the display panel, and then place the display panel on the display assembly.
+5. Place the display bezel on the display assembly.
+6. Align the tabs on the display bezel to the slots on the display assembly.
+7. Press down on the display bezel and snap the display bezel in place.
+Next steps
+1. Install the hinges.
+2. Install the hinge caps.
+3. Install the display assembly.
+4. Install the wireless card.
+5. Install the base cover.
+6. Install the SD card.
+7. Follow the procedure in After working inside your computer.
+
+Camera module
+Removing the camera module
+Prerequisites
+NOTE: This procedure is applicable for systems with a plastic chassis only.
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the wireless card.
+5. Remove the display assembly.
+6. Remove the hinge caps.
+7. Remove the display bezel.
+8. Remove the hinges.
+9. Remove the display panel.
+About this task
+The following images indicate the location of the camera module and provide a visual representation of the removal procedure.
+Steps
+1. Using the pull tab, disconnect the camera cable from the camera module.
+2. Using a plastic scribe, pry the camera module from the display assembly.
+NOTE: Start prying the camera module in a sequential order 1>2>3 as indicated on the display back cover.
+3. Lift the camera module from the display assembly.
+
+Installing the camera module
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the camera module and provide a visual representation of the installation procedure.
+Steps
+1. Adhere the camera module in its slot on the display assembly.
+2. Connect the camera cable to the camera module.
+Next steps
+1. Install the display panel.
+2. Install the hinges.
+3. Install the display bezel.
+4. Install the hinge caps.
+5. Install the display assembly.
+6. Install the wireless card.
+7. Install the base cover.
+8. Install the SD card.
+9. Follow the procedure in After working inside your computer.
+
+eDP cable
+Removing the eDP cable
+Prerequisites
+NOTE: The eDP cable removal procedure is applicable only for systems with plastic chassis.
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the wireless card.
+5. Remove the display assembly.
+6. Remove the hinge caps.
+7. Remove the display bezel.
+8. Remove the hinges.
+9. Remove the display panel.
+About this task
+The following image indicates the location of the eDP cable and provides a visual representation of the removal procedure.
+Steps
+1. Disconnect the eDP cable from the camera.
+2. Peel and remove the eDP cable from the display cover.
+
+Installing the eDP cable
+About this task
+NOTE: The eDP cable installation procedure is applicable only for systems with plastic chassis.
+The following image indicates the location of the eDP cable and provides a visual representation of the installation procedure.
+Steps
+1. Adhere the tape to securing the eDP cable to the display back cover.
+2. Connect the eDP cable to the camera.
+Next steps
+1. Install the display panel.
+2. Install the hinges.
+3. Install the display bezel.
+4. Install the hinge caps.
+5. Install the display assembly.
+6. Install the wireless card.
+7. Install the base cover.
+8. Install the SD card.
+9. Follow the procedure in After working inside your computer.
+
+Display cover and antenna assembly
+Replacement of the display cover and antenna assembly
+Prerequisites
+NOTE: This procedure is applicable for systems shipped with a plastic chassis only.
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the wireless card.
+5. Remove the display assembly.
+6. Remove the hinge caps.
+7. Remove the display bezel.
+8. Remove the hinges.
+9. Remove the display panel.
+10. Remove the camera module.
+11. Remove the eDP cable.
+NOTE: The display cover and antenna assembly cannot be further disassembled. If the WLAN antennas are malfunctioning and needs replacement, replace the entire display cover and antenna assembly.
+About this task
+The following image indicates the location of the display cover and antenna assembly and provides a visual representation of the removal procedure.
+Steps
+After performing the pre-requisites, you are left with the display cover and antenna assembly.
+
+Touchpad
+Removing the touchpad
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the 3-cell battery or 4-cell battery (whichever applicable).
+About this task
+The following images indicate the location of the touchpad and provide a visual representation of the removal procedure.
+Steps
+1. Open the latch and disconnect the hard drive cable from the connector on the system board.
+2. Remove the three (M2x2) screws that secure the touchpad bracket to the palm-rest and keyboard assembly.
+3. Lift the touchpad bracket off the touchpad.
+4. Open the latch and disconnect the touchpad Flexible Flat cable from the connector on the system board.
+5. Remove the two screws (M2x2) that secure the touchpad to the palm-rest and keyboard assembly.
+6. Lift the touchpad from the palm-rest and keyboard assembly.
+
+Installing the touchpad
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the touchpad and provide a visual representation of the installation procedure.
+Steps
+1. Place the touchpad into its slot on the palm-rest and keyboard assembly.
+2. Align the screw holes on the touchpad to the screw holes on the palm-rest and keyboard assembly.
+3. Replace the two (M2x2) screws that secure the touchpad to the palm-rest and keyboard assembly.
+4. Connect the touchpad Flexible Flat cable to the connector on the system board and close the latch.
+5. Place the touchpad bracket on the touchpad.
+6. Align the screw holes on the touchpad bracket to the screw holes on the palm-rest and keyboard assembly.
+7. Replace the three (M2x2) screws that secure the touchpad bracket to the palm-rest and keyboard assembly.
+8. Connect the hard drive cable to the connector on the system board.
+Next steps
+1. Install the 3-cell battery or 4-cell battery (whichever applicable).
+2. Install the base cover.
+3. Install the SD card.
+4. Follow the procedure in After working inside your computer.
+
+System board
+Removing the system board
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the 3-cell battery or 4-cell battery (whichever applicable).
+5. Remove the M.2 2230 solid-state drive or M.2 2280 solid-state drive (whichever applicable).
+6. Remove the memory modules.
+7. Remove the wireless card.
+8. Remove the fan.
+9. Remove the heat sink.
+10. Remove the display assembly.
+About this task
+The following image indicates the connectors on your system board.
+1. Fan connector 
+2. I/O board FFC connector
+3. eDP connector 
+4. DC-in port connector
+5. Keyboard FFC connector 
+6. Keyboard-backlight FFC connector
+7. Battery connector 
+8. Memory modules
+9. Touchpad FFC connector 
+10. Hard drive FFC connector
+11. Wireless connector 
+12. Speaker cable connector
+13. Solid-state drive connector
+The following images indicate the location of the system board and provide a visual representation of the removal procedure.
+Steps
+1. Remove the two (M2.5x5) screws from the right hinge.
+2. Pry open the right-display hinge at an angle of 90 degrees.
+3. Disconnect the following cables from the system board:
+a. I/O board Flexible Flat cable
+b. Speaker cable
+c. Hard drive Flexible Flat cable (for systems with 2.5-inch hard drive)
+d. Touchpad Flexible Flat cable
+e. Keyboard backlight Flexible Printed cable (for systems with backlit keyboard)
+f. Keyboard Flexible Printed cable
+g. Power adapter port cable
+h. eDP cable
+4. Remove the three (M2x3.5) screws and the single (M2x2) screw that secures the system board to the palm-rest assembly.
+5. Carefully lift the system board away from the chassis.
+NOTE: For systems shipped with a USB Type-C port, do not remove the type-C bracket that is secured to the system
+board.
+
+Installing the system board
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following image indicates the connectors on your system board.
+1. Fan connector 
+2. I/O board FFC connector
+3. eDP connector 
+4. DC-in port connector
+5. Keyboard FFC connector 
+6. Keyboard-backlight FFC connector
+7. Battery connector 
+8. Memory modules
+9. Touchpad FFC connector 
+10. Hard drive FFC connector
+11. Wireless connector 
+12. Speaker cable connector
+13. Solid-state drive connector
+The following images indicate the location of the system board and provide a visual representation of the installation procedure.
+Steps
+1. Place the system board on the palm-rest and keyboard assembly.
+2. Align the screw holes on the system board with the screw holes on the palm-rest assembly.
+3. Replace the single (M2x2) screw that secures the system board to the palm-rest assembly.
+4. Replace the three (M2x3.5) screws that secure the system board to the palm-rest assembly.
+5. Connect the following cables to the system board:
+a. I/O board Flexible Flat cable
+b. Speaker cable
+c. Hard drive Flexible Flat cable (for systems with 2.5-inch hard drive)
+d. Touchpad Flexible Flat cable
+e. Keyboard backlight Flexible Printed cable (for systems with backlit keyboard)
+f. Keyboard Flexible Printed cable
+g. Power adapter port cable
+h. eDP cable
+6. Close the right-display hinge and align the screw holes on the right-display hinge with the screw holes on the system board.
+7. Replace the two (M2.5x5) screws to secure it to the palm-rest assembly.
+Next steps
+1. Install the display assembly.
+2. Install the heat sink.
+3. Install the fan.
+4. Install the wireless card.
+5. Install the memory modules.
+6. Install the M.2 2230 solid-state drive or M.2 2280 solid-state drive (whichever applicable).
+7. Install the 3-cell battery or 4-cell battery (whichever applicable).
+8. Install the base cover.
+9. Install the SD card.
+10. Follow the procedure in After working inside your computer.
+
+Power-adapter port
+Removing the power-adapter port
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the display assembly.
+About this task
+The following images indicate the location of the power-adapter port and provide a visual representation of the removal procedure.
+Steps
+1. Remove the two (M2.5x5) screws that secure the right hinge to the palm-rest and keyboard assembly.
+2. Disconnect the power-adapter cable from the connector on the system board.
+3. Lift the power-adapter port from its slot on the palm-rest and keyboard assembly.
+
+Installing the power-adapter port
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following images indicate the location of the power-adapter port and provide a visual representation of the installation procedure.
+Steps
+1. Using the alignment post, place the power-adapter port into its slot on the palm-rest and keyboard assembly.
+2. Connect the power-adapter port cable to the connector on the system board.
+3. Fold the right hinge down and install the two (M2.5x5) screws to secure it to the palm-rest and keyboard assembly.
+Next steps
+1. Install the display assembly.
+2. Install the base cover.
+3. Install the SD card.
+4. Follow the procedure in After working inside your computer.
+
+Palm-rest and keyboard assembly
+Removing the palm-rest and keyboard assembly
+Prerequisites
+1. Follow the procedure in Before working inside your computer.
+2. Remove the SD card.
+3. Remove the base cover.
+4. Remove the 3-cell battery or 4-cell battery (whichever applicable).
+5. Remove the M.2 2230 solid-state drive or M.2 2280 solid-state drive (whichever applicable).
+6. Remove the memory modules.
+7. Remove the wireless card.
+8. Remove the speakers.
+9. Remove the fan.
+10. Remove the heat sink.
+11. Remove the I/O board.
+12. Remove the hard drive assembly.
+13. Remove the touchpad.
+14. Remove the display assembly.
+15. Remove the power-adapter port.
+16. Remove the power button or power button with optional FPR.
+17. Remove the system board.
+NOTE: The system board can be removed along with the heat sink.
+About this task
+NOTE: The following image shows the palm-rest for aluminum chassis which has WLAN antennas attached to it.
+The following image indicates the location of the palm-rest and keyboard assembly and provides a visual representation of the removal procedure.
+NOTE:
+For systems with an aluminum chassis, both the left and right RF metal brackets MUST be transferred to the replacement palm-rest.
+Steps
+After performing the pre-requisites, you are left with the palm-rest and keyboard assembly.
+
+Installing the palmrest and keyboard assembly
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation process.
+About this task
+The following image indicates the location of the palmrest and keyboard assembly and provides a visual representation of the installation procedure.
+Steps
+Place the palm-rest and keyboard assembly on a flat and clean surface and perform the post-requisites to install the palm-rest and keyboard assembly.
+Next steps
+1. Install the system board.
+2. Install the power button or power button with optional FPR.
+3. Install the power-adapter port.
+4. Install the display assembly.
+5. Install the touchpad.
+6. Install the hard drive assembly.
+7. Install the I/O board.
+8. Install the heat sink.
+9. Install the fan.
+10. Install the speakers.
+11. Install the wireless card.
+12. Install the memory modules.
+13. Install the M.2 2230 solid-state drive or M.2 2280 solid-state drive (whichever applicable).
+14. Install the 3-cell battery or 4-cell battery (whichever applicable).
+15. Install the base cover.
+16. Install the SD card.
+17. Follow the procedure in After working inside your computer.
+
+System setup
+CAUTION: Unless you are an expert computer user, do not change the settings in the BIOS Setup program.
+Certain changes can make your computer work incorrectly.
+NOTE: Depending on the computer and its installed devices, the items listed in this section may or may not be displayed.
+NOTE: Before you change BIOS Setup program, it is recommended that you write down the BIOS Setup program screen
+information for future reference.
+Use the BIOS Setup program for the following purposes:
+● Get information about the hardware installed in your computer, such as the amount of RAM and the size of the hard drive.
+● Change the system configuration information.
+● Set or change a user-selectable option, such as the user password, type of hard drive installed, and enabling or disabling base devices.
+
+Entering BIOS Setup program
+About this task
+Turn on (or restart) your computer and press F2 immediately.
+Navigation keys
+NOTE: For most of the BIOS Setup options, changes that you make are recorded but do not take effect until you restart the computer.
+
+F12 One Time Boot menu
+To enter the One Time Boot menu, turn on your computer, and then press F12 immediately.
+NOTE: If you are unable to enter the One Time Boot menu, repeat the above action.
+The One Time Boot menu displays the devices that you can boot from and also display the options to start diagnostics. The boot menu options are:
+● Removable Drive (if available)
+● STXXXX Drive (if available)
+NOTE: XXX denotes the SATA drive number.
+● Optical Drive (if available)
+● SATA Hard Drive (if available)
+● Diagnostics
+The One Time Boot menu screen also displays the option to access BIOS Setup.
+
+System setup options
+NOTE: Depending on your computer and its installed devices, the items listed in this section may or may not appear.
+Table 4. System setup options—Main menu 
+System Time Displays the current time in hh:mm:ss format.
+System Date Displays the current date in mm/dd/yyyy format.
+BIOS Version Displays the BIOS version.
+Product Name Displays the model number of your computer.
+Service Tag Displays the service tag of your computer.
+Asset Tag Displays the asset tag of your computer.
+CPU Type Displays the processor type.
+CPU Speed Displays the processor speed.
+CPU ID Displays the processor identification code.
+CPU Cache
+L1 Cache Displays the processor L1 cache size.
+L2 Cache Displays the processor L2 cache size.
+L3 Cache Displays the processor L3 cache size.
+First HDD Displays the type of hard drive installed.
+M.2 PCIe SSD Displays the PCIe SSD information connected to the M.2
+slot.
+AC Adapter Type Displays the type of AC adapter.
+System Memory Displays the size of memory installed.
+Memory Speed Displays the speed of memory.
+Keyboard Type Displays the type of keyboard installed on the computer.
+
+System and setup password
+You can create a system password and a setup password to secure your computer.
+CAUTION: The password features provide a basic level of security for the data on your computer.
+CAUTION: Anyone can access the data that is stored on your computer, when left unattended.
+NOTE: System and setup password feature is disabled.
+
+Assigning a System Setup password
+Prerequisites
+You can assign a new System or Admin Password only when the status is in Not Set.
+About this task
+To enter BIOS System Setup, press F2 immediately after a power-on or reboot.
+Steps
+1. In the System BIOS or System Setup screen, select Security and press Enter.
+The Security screen is displayed.
+2. Select System/Admin Password and create a password in the Enter the new password field.
+Use the following guidelines to assign the system password:
+● A password can have up to 32 characters.
+● At least one special character: "( ! " # $ % & ' * + , - . / : ; < = > ? @ [ \ ] ^ _ ` { | } )"
+● Numbers 0 to 9.
+● Upper case letters from A to Z.
+● Lower case letters from a to z.
+3. Confirm new password type the system password that you entered earlier in the field and click OK.
+4. Press Esc and save the changes as prompted by the message.
+5. Press Y to save the changes.
+The computer restarts.
+
+Deleting or changing an existing system password or setup password
+Prerequisites
+Ensure that the Password Status is Unlocked (in the System Setup) before attempting to delete or change the existing system password and/or setup password. You cannot delete or change an existing system password or setup password if the Password Status is Locked.
+About this task
+To enter the System Setup, press F2 immediately after a power-on or reboot.
+Steps
+1. In the System BIOS or System Setup screen, select System Security and press Enter.
+The System Security screen is displayed.
+2. In the System Security screen, verify that the Password Status is Unlocked.
+3. Select System Password. Update or delete the existing system password, and press Enter or Tab.
+4. Select Setup Password. Update or delete the existing setup password, and press Enter or Tab.
+NOTE: If you change the system password and/or setup password, reenter the new password when prompted. If you
+delete the system password and/or setup password, confirm the deletion when prompted.
+5. Press Esc. A message prompts you to save the changes.
+6. Press Y to save the changes and exit from System Setup.
+The computer restarts.
+Clearing BIOS (System Setup) and System passwords
+About this task
+To clear the computer or BIOS passwords, contact Dell technical support as described at Contact Support. For more
+information, go to Dell Support Site.
+NOTE: For information about how to reset Windows or application passwords, see the documentation accompanying
+Windows or your application.
+Updating the BIOS
+Updating the BIOS in Windows
+Steps
+1. Go to Dell Support Site.
+2. Click Product support. In the Search support box, enter the Service Tag of your computer, and then click Search.
+NOTE: If you do not have the Service Tag, use the SupportAssist to automatically identify your computer. You can also
+use the product ID or manually browse for your computer model.
+3. Click Drivers & Downloads. Expand Find drivers.
+4. Select the operating system installed on your computer.
+5. In the Category drop-down list, select BIOS.
+6. Select the latest version of BIOS, and click Download to download the BIOS file for your computer.
+7. After the download is complete, browse the folder where you saved the BIOS update file.
+8. Double-click the BIOS update file icon and follow the on-screen instructions.
+For more information about how to update the system BIOS, search in the Knowledge Base Resource at Dell Support Site.
+
+Updating the BIOS using the USB drive in Windows
+Steps
+1. Follow the procedure from step 1 to step 6 in Updating the BIOS in Windows to download the latest BIOS Setup program file.
+2. Create a bootable USB drive. For more information, search the Knowledge Base Resource at Dell Support Site.
+3. Copy the BIOS Setup program file to the bootable USB drive.
+4. Connect the bootable USB drive to the computer that needs the BIOS update.
+5. Restart the computer and press F12 .
+6. Select the USB drive from the One Time Boot Menu.
+7. Type the BIOS Setup program filename and press Enter.
+
+The BIOS Update Utility appears.
+8. Follow the on-screen instructions to complete the BIOS update.
+
+Updating the BIOS in Linux and Ubuntu
+To update the system BIOS on a computer that is installed with Linux or Ubuntu, see the knowledge base article 000131486 at Dell Support Site.
+
+Updating the BIOS from the One Time Boot menu
+Update your computer BIOS using the BIOS XXXX.exe file that is copied to a FAT32 USB drive and booting from the One Time Boot menu.
+About this task
+BIOS Update
+You can run the BIOS update file from Windows using a bootable USB drive or you can also update the BIOS from the One Time Boot menu on the computer.
+You can confirm by booting your computer to the One Time Boot Menu to see if BIOS FLASH UPDATE is listed as a boot
+option. If the option is listed, then the BIOS can be updated using this method..
+Updating from the One Time Boot menu
+To update your BIOS from the One Time Boot menu, you need the following:
+● USB drive formatted to the FAT32 file system (the drive does not have to be bootable)
+● BIOS executable file that you downloaded from the Dell Support website and copied to the root of the USB drive
+● AC power adapter must be connected to the computer
+● Functional computer battery to flash the BIOS
+Perform the following steps to perform the BIOS flash update process from the menu:
+CAUTION: Do not turn off the computer during the BIOS flash update process. The computer may not boot if
+you turn off your computer.
+Steps
+1. Turn off your computer, insert the USB drive where you copied the BIOS flash update file into a USB port of the computer.
+2. Turn on the computer and press to access the One Time Boot Menu. Select BIOS flash Update using the mouse or arrow keys then press Enter.
+The flash BIOS menu is displayed.
+3. Click Flash from file.
+4. Select the external USB device.
+5. Select the file and double-click the flash target file, and then click Submit.
+6. Click Update BIOS. The computer restarts to flash the BIOS.
+7. The computer will restart after the BIOS flash update is completed.
+
+Troubleshooting
+Handling swollen rechargeable Li-ion batteries
+Like most laptops, Dell laptops use Lithium-ion batteries. One type of Lithium-ion battery is the rechargeable Li-ion battery.
+Rechargeable Li-ion batteries have increased in popularity in recent years and have become a standard in the electronics industry due to customer preferences for a slim form factor (especially with newer ultra-thin laptops) and long battery life.
+Inherent to rechargeable Li-ion battery technology is the potential for swelling of the battery cells.
+A swollen battery may impact the performance of the laptop. To prevent possible further damage to the device enclosure or internal components leading to malfunction, discontinue the use of the laptop and discharge it by disconnecting the AC adapter and letting the battery drain.
+Swollen batteries should not be used and must be replaced and disposed of properly. We recommend contacting Dell Support for options to replace a swollen battery under the terms of the applicable warranty or service contract, including options for replacement by a Dell authorized service technician.
+The guidelines for handling and replacing rechargeable Li-ion batteries are as follows:
+● Exercise caution when handling rechargeable Li-ion batteries.
+● Discharge the battery before removing it from the computer. To discharge the battery, unplug the AC adapter from the computer and operate the computer only on battery power. The battery is fully discharged when the computer no longer turns on when the power button is pressed.
+● Do not crush, drop, mutilate, or penetrate the battery with foreign objects.
+● Do not expose the battery to high temperatures, or disassemble battery packs and cells.
+● Do not apply pressure to the surface of the battery.
+● Do not bend the battery.
+● Do not use tools of any type to pry on or against the battery.
+● If a battery gets stuck in a device as a result of swelling, do not try to free it as puncturing, bending, or crushing a battery can be dangerous.
+● Do not attempt to reassemble a damaged or swollen battery into a laptop.
+● Swollen batteries that are covered under warranty should be returned to Dell in an approved shipping container (provided by Dell)—this is to comply with transportation regulations. Swollen batteries that are not covered under warranty should be disposed of at an approved recycling center. Contact Dell Support at Dell Support Site for assistance and further instructions.
+● Using a non-Dell or incompatible battery may increase the risk of fire or explosion. Replace the battery only with a compatible battery purchased from Dell that is designed to work with your Dell computer. Do not use a battery from other computers with your computer. Always purchase genuine batteries from Dell Site or otherwise directly from Dell.
+Rechargeable Li-ion batteries can swell for various reasons such as age, number of charge cycles, or exposure to high heat. For more information about how to improve the performance and lifespan of the laptop battery and to minimize the possibility of occurrence of the issue, search Dell laptop battery in the Knowledge Base Resource at Dell Support Site.
+
+Locating the Service Tag or Express Service Code of your Dell computer
+Your Dell computer is uniquely identified with a Service Tag or Express Service Code. To view relevant support resources for your Dell computer, we recommend entering the Service Tag or Express Service Code at Dell Support Site.
+For more information about how to find the Service Tag for your computer, see Instructions on how to find your Service Tag or Serial Number.
+
+SupportAssist diagnostics
+About this task
+The SupportAssist diagnostics (previously known as ePSA diagnostics) performs a complete check of your hardware. The SupportAssist diagnostics is embedded in the BIOS and is launched by it internally. The SupportAssist diagnostics provides a set of options for particular devices or device groups. It allows you to:
+● Run tests automatically or in an interactive mode.
+● Repeat tests
+● Display or save test results
+● Run thorough tests to introduce additional test options and provide extra information about the failed device(s)
+● View status messages that indicate if the tests are completed successfully
+● View error messages that indicate if problems were encountered during the test
+NOTE: Some tests are meant for specific devices and require user interaction. Ensure that you are present in front of the computer when the diagnostic tests are performed.
+For more information, see SupportAssist Pre-Boot System Performance Check.
+Built-in self-test (BIST)
+M-BIST
+M-BIST (Built In Self-Test) is the system board built-in self-test diagnostics tool that improves the diagnostics accuracy of system board Embedded Controller (EC) failures.
+NOTE: M-BIST can be manually initiated before Power On Self-Test (POST).
+How to run M-BIST
+NOTE: Before initiating M-BIST, ensure that the computer is in a power-off state.
+1. Press and hold both the M key on the keyboard and the power button to initiate M-BIST.
+2. The battery indicator LED may exhibit two states:
+a. OFF: No fault was detected with the system board.
+b. AMBER: Amber indicates a problem with the system board.
+3. If there is a failure with the system board, the battery status LED flashes one of the following error codes for 30 seconds:
+4. If there is no failure with the system board, the LCD cycles through the solid color screens that are described in the
+LCD-BIST section for 30 seconds and then turn off.
+LCD Built-in Self-Test (BIST)
+Dell laptops have a built-in diagnostic tool that helps you determine if the screen abnormality you are experiencing is an inherent
+problem with the LCD (screen) of the Dell laptop or with the video card (GPU) and computer settings.
+When you notice screen abnormalities like flickering, distortion, clarity issues, fuzzy or blurry image, horizontal or vertical lines,
+color fade and so on, it is always a good practice to isolate the LCD (screen) by running the Built-In Self-Test (BIST).
+How to invoke the LCD BIST
+1. Turn off your computer.
+2. Disconnect any peripherals that are connected to the computer. Connect only the AC adapter (charger) to the computer.
+3. Ensure that the LCD (screen) is clean (no dust particles on the surface of the screen).
+4. Press and hold the D key and press the power button to enter LCD built-in self-test (BIST) mode. Continue to hold the D
+key until the computer boots up.
+5. The screen displays solid colors and change colors on the entire screen to white, black, red, green, and blue twice.
+6. Then it displays the colors white, black, and red.
+7. Carefully inspect the screen for abnormalities (any lines, fuzzy color, or distortion on the screen).
+8. At the end of the last solid color (red), the computer shuts down.
+NOTE: Dell SupportAssist Preboot diagnostics upon launch initiates an LCD BIST first, expecting a user intervention to
+confirm functionality of the LCD.
+
+Recovering the operating system
+When your computer is unable to boot to the operating system even after repeated attempts, it automatically starts Dell SupportAssist OS Recovery.
+Dell SupportAssist OS Recovery is a stand-alone tool that is preinstalled in Dell computers running Windows operating system.
+It consists of tools to diagnose and troubleshoot issues that may occur before your computer boots to the operating system. It enables you to diagnose hardware issues, repair your computer, back up your files, or restore your computer to its factory state.
+You can also download it from the Dell Support website to troubleshoot and fix your computer when it fails to boot into the primary operating system due to software or hardware failures.
+For more information about the Dell SupportAssist OS Recovery, see Dell SupportAssist OS Recovery User's Guide at
+Serviceability Tools at the Dell Support Site. Click SupportAssist and then, click SupportAssist OS Recovery.
+
+Wi-Fi power cycle
+About this task
+If your computer is unable to access the Internet due to Wi-Fi connectivity issues, reset your Wi-Fi device by performing the
+following steps:
+Steps
+1. Turn off the computer.
+2. Turn off the modem.
+NOTE: Some Internet service providers (ISPs) provide a modem and router combo device.
+3. Turn off the wireless router.
+4. Wait for 30 seconds.
+5. Turn on the wireless router.
+6. Turn on the modem.
+7. Turn on the computer.
+
+Drain residual flea power (perform hard reset)
+About this task
+Flea power is the residual static electricity that remains in the computer even after it has been powered off and the battery is
+removed.
+For your safety, and to protect the sensitive electronic components in your computer, you must drain residual flea power before removing or replacing any components in your computer.
+Draining residual flea power, also known as a performing a "hard reset," is also a common troubleshooting step if your computer does not turn on or boot into the operating system.
+Perform the following steps to drain the residual flea power:
+Steps
+1. Turn off the computer.
+2. Disconnect the power adapter from the computer.
+3. Remove the base cover.
+4. Remove the battery.
+CAUTION: The battery is a Field Replaceable Unit (FRU) and the removal and installation procedures are intended for authorized service technicians only.
+5. Press and hold the power button for 20 seconds to drain the flea power.
+6. Install the battery.
+7. Install the base cover.
+8. Connect the power adapter to the computer.
+9. Turn on the computer.
+NOTE: For more information about performing a hard reset, search in the Knowledge Base Resource at the Dell Support Site.
